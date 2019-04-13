@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.aivars-sablis:ev3dev-lang-java:2.5.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.aivars-sablis/ev3dev-lang-java/2.5.3/d7150217bd97ba09a1ba5956e4431a04a7866099/ev3dev-lang-java-2.5.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.aivars-sablis/ev3dev-lang-java/2.5.3/40f6c04f1eca55ae21ee29ddc565f6264c555e3f/ev3dev-lang-java-2.5.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
