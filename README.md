@@ -22,17 +22,15 @@ The project includes latest dependencies and an example ready to be deployed on 
 To start, change the `brickHost`, `brickUser` and `brickPassword` properties in `config.gradle`. Then, continue to the brick setup.
 
 Steps to connect to Truck: 
-1) Switch on Truck and wait for OS to load
-2) Check the IP of Truck (by default for this truck it should be 192.168.122.223 - if not, update the file `config.gradle`):
+1) Switch on Truck and wait for OS to load.
+2) To start, check the `brickHost`, `brickUser` and `brickPassword` properties in `config.gradle`.
+2) Especially, check the IP of Truck (by default for this truck it should be 192.168.122.223 - if not, update the file `config.gradle`):
 
 ```
-remotes {
-    ev3dev {
-        host = '192.168.122.223'
-        user = 'robot'
-        password = 'maker'
-    }
-}
+// Brick connection parameters //
+    brickHost = "192.168.122.223"
+    brickUser = "robot"
+    brickPassword = "maker"
 ```
 
 3) Open Terminal or Command Line. Locate to Project file folder (use commands cd <project directory>). 
