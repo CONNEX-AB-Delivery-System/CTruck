@@ -51,7 +51,7 @@ Steps to connect to Truck:
 - `pkillJava` - Kill running Java instances.
 - `fatJar` - Build a fat JAR with all dependencies included inside.
 
-# About CSLTruck
+# About C-Truck
 
 motors
 - [one EV3 Large Motor] for driving to run front wheel drive system. Documentation here: <a href="http://ev3dev-lang-java.github.io/docs/api/latest/ev3dev-lang-java/ev3dev/actuators/lego/motors/EV3LargeRegulatedMotor.html">Javadocs</a>
@@ -62,7 +62,7 @@ motors
 
 sensors
 - [one EV3 Infrared Sensor] for measuring distance to detect obstacles. Documentation here: <a href="http://ev3dev-lang-java.github.io/docs/api/latest/ev3dev-lang-java/ev3dev/sensors/ev3/EV3IRSensor.html">Javadocs</a> and <a href="http://docs.ev3dev.org/projects/lego-linux-drivers/en/ev3dev-jessie/sensor_data.html#lego-ev3-ir">Sensor capabilities</a>
-- [one mindstormsLineReaderV2 Sensor Line] for measuring line reflection to follow the line. Documentation here: <a href="https://github.com/CONNEX-AB-Delivery-System/DS-CSLTruck/blob/master/src/main/java/base/LineReaderV2.java">Javadocs</a> and <a href="http://docs.ev3dev.org/projects/lego-linux-drivers/en/ev3dev-jessie/sensor_data.html#ms-line-leader">Sensor capabilities</a> NEW! If you plan implement line following, stoping at start and end <a href="http://www.mindsensors.com/pdfs/LineLeader-v2-User-Guide.pdf">User Guide</a>.
+- [one mindstormsLineReaderV2 Sensor Line] for measuring line reflection to follow the line. Documentation here: <a href="https://github.com/CONNEX-AB-Delivery-System/DS-CSLTruck/blob/master/src/main/java/base/LineReaderV2.java">Javadocs</a> and <a href="http://docs.ev3dev.org/projects/lego-linux-drivers/en/ev3dev-jessie/sensor_data.html#ms-line-leader">Sensor capabilities</a> If you plan implement line following, stoping at start and end <a href="http://www.mindsensors.com/pdfs/LineLeader-v2-User-Guide.pdf">User Guide</a>.
 
 
 
