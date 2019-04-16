@@ -14,6 +14,7 @@ import lejos.utility.Delay;
 
 public class CTruck {
 
+<<<<<<< HEAD
     private static int LineReader() {
         //TODO: PLACE YOUR CODE HERE
 
@@ -82,6 +83,30 @@ public class CTruck {
         sensorProximity = new EV3IRSensor(SensorPort.S1);
         System.out.println("Sensors initialized");
 
+=======
+    public static void main(final String[] args){
+
+
+        // MOTORS
+
+        System.out.println("EV3-ContainerTruck: Creating Motor C - Driving");
+        final EV3LargeRegulatedMotor motorDrive = new EV3LargeRegulatedMotor(MotorPort.C);
+        System.out.println("EV3-ContainerTruck: Creating Motor D - Steering");
+        final EV3MediumRegulatedMotor motorSteer = new EV3MediumRegulatedMotor(MotorPort.D);
+        System.out.println("EV3-ContainerTruck: Creating Motor A - Grabber");
+        final EV3MediumRegulatedMotor motorGrabber = new EV3MediumRegulatedMotor(MotorPort.A);
+        System.out.println("EV3-ContainerTruck: Creating Motor B - Lift");
+        final EV3LargeRegulatedMotor motorLift = new EV3LargeRegulatedMotor(MotorPort.B);
+        System.out.println("Motor initialized");
+
+        // Sensors
+
+        System.out.println("EV3-ContainerTruck: Creating Sensor S4 - Linereader");
+        final LineReaderV2 lineReader = new LineReaderV2(SensorPort.S4);
+        //System.out.println("EV3-ContainerTruck: Creating Sensor S1 - ObstacleDetection");
+        //final LineReaderV2 obstacleDetection = new LineReaderV2(SensorPort.S1);
+        System.out.println("Sensors initialized");
+
         //To Stop the motor in case of pkill java for example
         Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
             public void run() {
@@ -102,14 +127,13 @@ public class CTruck {
 
 
 
-
         //Main class for executing code
         CTruckRun();
 
 
 
 
-
+        
         System.out.println("Checking Battery");
         System.out.println("Votage: " + Battery.getInstance().getVoltage());
 
